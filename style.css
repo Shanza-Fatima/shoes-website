@@ -443,22 +443,22 @@ p i{
     margin-right: 40px;
   }
   .men-shoes img{
-    width: 198px;
-    height: 199px;
+    width: 240px;
+    height: 241px;
   }
   .women-collection{
     flex-wrap: wrap;
   }
   .women-shoes img{
-    width: 198px;
-    height: 199px;
+    width: 240px;
+    height: 241px;
   }
   .kids-collection{
     flex-wrap: wrap;
   }
   .kids-shoes img{
-    width: 198px;
-    height: 199px;
+    width: 240px;
+    height: 241px;
   }
   .footerfisrt{
     visibility: hidden;
