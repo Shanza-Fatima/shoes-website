@@ -101,7 +101,7 @@ nav a{
   /* Usage example for an HTML element */
   .main img {
     display: block;
-    animation: bounceInRight 1s both;
+   /* animation: bounceInRight 1s both;*/
     height: 350px;
     margin-top: -250px;
     margin-left: 43%;
