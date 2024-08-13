@@ -94,6 +94,11 @@ nav a{
     animation-duration: 2s;
     animation-fill-mode: both;
   }
+  .pulse{
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
   .main{
     margin-bottom: 80px;
     margin-top: -80px;
