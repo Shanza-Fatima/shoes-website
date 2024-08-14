@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-  background-color: black;
-  color: #fff;
+  background-color: #FF006E;
+  color: #000;
 }  
 @font-face{
   font-family: 'font for the nav';
@@ -113,11 +113,13 @@ nav a{
     margin-right: -300px;
    animation: pulse 1s infinite;
     width: 650px;
-    filter: drop-shadow(rgb(9, 176, 231) 1rem 1rem 10px);
+   /* filter: drop-shadow(rgb(9, 176, 231) 1rem 1rem 10px);*/
+   filter: drop-shadow(#007BFF 1rem 1rem 10px)
+
   }
   
 .main h1{
-  color: #fff;
+  color: #f7f7f7;
   display: block;
   font-size: 70px;
   margin-top: 100px;
