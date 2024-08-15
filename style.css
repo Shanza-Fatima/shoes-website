@@ -514,7 +514,7 @@ p i{
   .copyright{
     font-size: 10px;
   }
- /* @keyframes bounceInRight {
+  @keyframes bounceInRight {
     from, 60%, 75%, 90%, to {
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
@@ -544,7 +544,7 @@ p i{
 
 .animated-element {
     animation: bounceInRight 1s ease-in-out; /* Adjusted duration 
-}*/
+}
 .About{
   margin-right: 10px;
 }
