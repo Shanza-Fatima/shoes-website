@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
   background-color: white;
@@ -29,11 +30,12 @@ body{
 
 }
  nav{
-    margin-top: -9%;
+    margin-top: -8.5%;
     margin-left: 50%;
     display: flex;
     justify-content: space-evenly;
     position: sticky;
+    display: inline-block;
     
 }
 nav a{
@@ -425,51 +427,53 @@ p i{
   padding: 15px 0 8px 0px;
 
 }
-@media (max-width:420px){
+
+@media (min-width:698px) and (max-width:980px){
   *{
     margin: 0;
     padding: 0;
   }
   .start img{
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
+    
+    margin-top: 2px;
+  }
+  nav{
+    margin-top: -15%;
   }
   nav a{
-    font-size: 12px;
-    margin-top: -30px;
-    margin-left: 14px;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
   
   }
   #navfirst{
-    margin-left: -34px;
-  }
-  #navlast{
-    visibility: collapse;
-    margin-right: none;
+    margin-left: -8%;
   }
   .main img{
-    width: 280px;
-    height: 150px;
-    margin-top: 30px;
+    width: 400px;
+    height: 230px;
+    margin-top: -130px;
     margin-right: 10px;
     margin-bottom: 20px;
-    margin-left: 7%;
+    margin-left: 52%;
+   /* animation: bounceInRight 1s both;*/
+    position: static;
     filter: drop-shadow(rgb(9, 176, 231) 00.6rem 0.6rem 10px);
   }
   .main h1{
-    font-size: 36px;
-    margin-left: 35px;
+    font-size: 50px;
+    margin-left: 40px;
+    font-weight: bold;
   }
   .main button{
-    padding: 10px 25px 10px 25px;
-    font-size: 10px;
-    margin-top: 50px;
+    padding: 18px 34px 18px 34px;
+    font-size: 15px;
+    margin-top: -34px;
     margin-left: 25px;
   }
   #btn1{
-    margin-left: 60px;
-    padding: 10px 30px 10px 30px;
+    margin-left: 40px;
+    padding: 19px 38px 19px 38px;
   }
   .Men h2{
     margin-left: 30px;
@@ -483,6 +487,287 @@ p i{
   .men-collection{
     flex-wrap: wrap;
     margin-left: 18px;
+    margin-right: 10px;
+  }
+  #main-men2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .men-shoes img{
+    width: 240px;
+    height: 241px;
+    
+  }
+  .women-collection{
+    flex-wrap: wrap;
+  }
+  .women-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .kids-collection{
+    flex-wrap: wrap;
+  }
+  .kids-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .footerfisrt{
+    margin-left: -20px;
+    font-size: 12px;
+  }
+  .footersecond{
+    margin-left: -30px;
+    font-size: 12px;
+  }
+  .footerthird{
+    margin-left: 10px;
+  }
+  .copyright{
+    font-size: 10px;
+  }
+  .About{
+    margin-right: 10px;
+  }
+  .About h2{
+    font-size: 30px;
+  }
+  .menformal h2{
+    font-size: 25px;
+  }
+  .mensneaker h2{
+    font-size: 25px;
+  }
+  .mencasual h2{
+    font-size: 25px;
+  }
+  .menFormalCollection{
+    flex-wrap: wrap
+  }
+  .menCasualCollection{
+    flex-wrap: wrap
+  }
+  .menSneakerCollection{
+    flex-wrap: wrap;
+  }
+  .shoes img{
+    width: 220px;
+    height: 221px;
+  }
+  .womenSandalCollection{
+    flex-wrap: wrap;
+  }
+  .womensandal h2{
+    font-size: 25px;
+  }
+  .womenheels h2{
+    font-size: 25px;
+  }
+}
+/*for  tablets*/
+@media (min-width:431px) and (max-width:697px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .start img{
+    
+    margin-top: 2px;
+  }
+  nav{
+    margin-top: -15%;
+  }
+  nav a{
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+  
+  }
+  #navfirst{
+    margin-left: -8%;
+  }
+  .main img{
+    width: 350px;
+    height: 200px;
+    margin-top: -130px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 52%;
+   /* animation: bounceInRight 1s both;*/
+    position: relative;
+    filter: drop-shadow(rgb(9, 176, 231) 00.6rem 0.6rem 10px);
+  }
+  .main h1{
+    font-size: 46px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .main button{
+    padding: 13px 28px 13px 28px;
+    font-size: 13px;
+    margin-top: -34px;
+    margin-left: 25px;
+  }
+  #btn1{
+    margin-left: 30px;
+    padding: 13px 33px 13px 33px;
+  }
+  .Men h2{
+    margin-left: 30px;
+  }
+  .Women h2{
+    margin-left: 30px;
+  }
+  .Kids h2{
+    margin-left: 30px;
+  }
+  .men-collection{
+    flex-wrap: wrap;
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+  #main-men2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .men-shoes img{
+    width: 240px;
+    height: 241px;
+    
+  }
+  .women-collection{
+    flex-wrap: wrap;
+  }
+  .women-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .kids-collection{
+    flex-wrap: wrap;
+  }
+  .kids-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .footerfisrt{
+    margin-left: -20px;
+    font-size: 12px;
+  }
+  .footersecond{
+    margin-left: -30px;
+    font-size: 12px;
+  }
+  .footerthird{
+    margin-left: 10px;
+  }
+  .copyright{
+    font-size: 10px;
+  }
+  .About{
+    margin-right: 10px;
+  }
+  .About h2{
+    font-size: 30px;
+  }
+  .menformal h2{
+    font-size: 25px;
+  }
+  .mensneaker h2{
+    font-size: 25px;
+  }
+  .mencasual h2{
+    font-size: 25px;
+  }
+  .menFormalCollection{
+    flex-wrap: wrap
+  }
+  .menCasualCollection{
+    flex-wrap: wrap
+  }
+  .menSneakerCollection{
+    flex-wrap: wrap;
+  }
+  .shoes img{
+    width: 220px;
+    height: 221px;
+  }
+  .womenSandalCollection{
+    flex-wrap: wrap;
+  }
+  .womensandal h2{
+    font-size: 25px;
+  }
+  .womenheels h2{
+    font-size: 25px;
+  }
+}
+
+/*for mobile devices*/
+@media (min-width:360px) and (max-width:430px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .start img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+  }
+  nav{
+    margin-top: -17.5%;
+    display: inline-block;
+  }
+  nav a{
+    font-size: 12px;
+    margin-top: -3%;
+    margin-left: 14px;
+    display: inline-block;
+  }
+  #navfirst{
+    margin-left: -34px;
+  }
+  #navlast{
+    visibility: collapse;
+    margin-right: none;
+  }
+  .main img{
+    width: 280px;
+    height: 160px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    filter: drop-shadow(rgb(9, 176, 231) 00.6rem 0.6rem 10px);
+  }
+  .main h1{
+    font-size: 36px;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .main button{
+    padding: 13px 28px 13px 28px;
+    font-size: 13px;
+    margin-top: 60px;
+    margin-left: 25px;
+    position: static;
+  }
+  #btn1{
+    margin-left: 40px;
+    padding: 13px 33px 13px 33px;
+  }
+  .Men h2{
+    margin-left: 30px;
+  }
+  .Women h2{
+    margin-left: 30px;
+  }
+  .Kids h2{
+    margin-left: 30px;
+  }
+  .men-collection{
+    flex-wrap: wrap;
+    margin-left: 14px;
   }
   .men-shoes img{
     width: 240px;
@@ -506,7 +791,7 @@ p i{
     visibility: hidden;
   }
   .footersecond{
-    margin-left: -400px;
+    margin-left: -150px;
   }
   .footerthird{
     visibility: hidden;
@@ -514,41 +799,177 @@ p i{
   .copyright{
     font-size: 10px;
   }
-.About{
-  margin-right: 10px;
+  .About{
+    margin-right: 10px;
+  }
+  .About h2{
+    font-size: 30px;
+  }
+  .menformal h2{
+    font-size: 25px;
+  }
+  .mensneaker h2{
+    font-size: 25px;
+  }
+  .mencasual h2{
+    font-size: 25px;
+  }
+  .menFormalCollection{
+    flex-wrap: wrap
+  }
+  .menCasualCollection{
+    flex-wrap: wrap
+  }
+  .menSneakerCollection{
+    flex-wrap: wrap;
+  }
+  .shoes img{
+    width: 220px;
+    height: 221px;
+  }
+  .womenSandalCollection{
+    flex-wrap: wrap;
+  }
+  .womensandal h2{
+    font-size: 25px;
+  }
+  .womenheels h2{
+    font-size: 25px;
+  }
 }
-.About h2{
-  font-size: 30px;
+
+/*@media (min-width:320px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .start img{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+  }
+  nav{
+    margin-top: -17.5%;
+    display: inline-block;
+  }
+  nav a{
+    font-size: 10px;
+    margin-top: -3%;
+    margin-left: 14px;
+    display: inline-block;
+  }
+  #navfirst{
+    margin-left: -34px;
+  }
+  #navlast{
+    visibility: collapse;
+    margin-right: none;
+  }
+  .main img{
+    width: 280px;
+    height: 160px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    filter: drop-shadow(rgb(9, 176, 231) 00.6rem 0.6rem 10px);
+  }
+  .main h1{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .main button{
+    padding: 13px 25px 13px 25px;
+    font-size: 13px;
+    margin-top: 60px;
+    margin-left: 25px;
+    position: static;
+  }
+  #btn1{
+    margin-left: 20px;
+    padding: 13px 30px 13px 30px;
+  }
+  .Men h2{
+    margin-left: 30px;
+  }
+  .Women h2{
+    margin-left: 30px;
+  }
+  .Kids h2{
+    margin-left: 30px;
+  }
+  .men-collection{
+    flex-wrap: wrap;
+    margin-left: 14px;
+  }
+  .men-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .women-collection{
+    flex-wrap: wrap;
+  }
+  .women-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .kids-collection{
+    flex-wrap: wrap;
+  }
+  .kids-shoes img{
+    width: 240px;
+    height: 241px;
+  }
+  .footerfisrt{
+    visibility: hidden;
+  }
+  .footersecond{
+    margin-left: -100px;
+  }
+  .footerthird{
+    visibility: hidden;
+  }
+  .copyright{
+    font-size: 10px;
+  }
+  .About{
+    margin-right: 10px;
+  }
+  .About h2{
+    font-size: 30px;
+  }
+  .menformal h2{
+    font-size: 25px;
+  }
+  .mensneaker h2{
+    font-size: 25px;
+  }
+  .mencasual h2{
+    font-size: 25px;
+  }
+  .menFormalCollection{
+    flex-wrap: wrap
+  }
+  .menCasualCollection{
+    flex-wrap: wrap
+  }
+  .menSneakerCollection{
+    flex-wrap: wrap;
+  }
+  .shoes img{
+    width: 220px;
+    height: 221px;
+  }
+  .womenSandalCollection{
+    flex-wrap: wrap;
+  }
+  .womensandal h2{
+    font-size: 25px;
+  }
+  .womenheels h2{
+    font-size: 25px;
+  }
 }
-.menformal h2{
-  font-size: 25px;
-}
-.mensneaker h2{
-  font-size: 25px;
-}
-.mencasual h2{
-  font-size: 25px;
-}
-.menFormalCollection{
-  flex-wrap: wrap
-}
-.menCasualCollection{
-  flex-wrap: wrap
-}
-.menSneakerCollection{
-  flex-wrap: wrap;
-}
-.shoes img{
-  width: 220px;
-  height: 221px;
-}
-.womenSandalCollection{
-  flex-wrap: wrap;
-}
-.womensandal h2{
-  font-size: 25px;
-}
-.womenheels h2{
-  font-size: 25px;
-}
-}
+*/
